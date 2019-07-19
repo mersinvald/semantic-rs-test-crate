@@ -1,3 +1,14 @@
+<a name="v0.1.9"></a>
+## v0.1.9 (2019-07-19)
+
+
+#### Features
+
+*   add 297FF1C5-6473-4DC1-BED4-4D29C95D43E9 ([89c1e9cf](89c1e9cf))
+*   add CA397047-FEC6-4493-9AF5-E6A42CE84047 ([dcda0f8b](dcda0f8b))
+
+
+
 <a name="v0.1.8"></a>
 ## v0.1.8 (2019-07-18)
 
