@@ -53,6 +53,7 @@ registry = "dockerhub"
 dockerfile = ".docker/Dockerfile"
 
 [[cfg.docker.images]]
+namespace = "mersinvald"
 name = "semantic-rs-test-crate"
 tag = "latest"
 binary_path = "target/release/semantic-rs-test-crate"
