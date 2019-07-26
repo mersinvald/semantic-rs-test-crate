@@ -49,10 +49,10 @@ assets = [
 [cfg.docker]
 repo_url = "https://github.com/mersinvald/semantic-rs-test-crate.git"
 repo_branch = "master"
-registry = "dockerhub"
-dockerfile = ".docker/Dockerfile"
 
 [[cfg.docker.images]]
+registry = "dockerhub"
+dockerfile = ".docker/Dockerfile"
 namespace = "mersinvald"
 name = "semantic-rs-test-crate"
 tag = "latest"
