@@ -3,9 +3,9 @@
 git = { location = "builtin" }
 # Short definition
 clog = "builtin"
-github = "builtin"
-rust = "builtin"
-docker = "builtin"
+#github = "builtin"
+#rust = "builtin"
+#docker = "builtin"
 
 [steps]
 # Shared step
@@ -26,12 +26,16 @@ verify_release = "discover"
 # Commit & push changes to the VCS
 commit = "git"
 # Publish to various platforms
-publish = [ "github", "docker" ]
+publish = []
 # Post-release step to notify users about release (e.g leave comments in issues resolved in this release)
 notify = "discover"
 
 [cfg]
 # Global configuration
+
+[cfg.clog]
+# Ignore commits like feat(ci) cause it makes no sense to issue a release for improvements in CI config
+ignore = ["ci"]
 
 [cfg.git]
 # Per-plugin configuration
@@ -42,23 +46,23 @@ force_https = true
 
 [cfg.github]
 assets = [
-    "bin/*",
+    "/workspace/bin/*",
     "Changelog.md"
 ]
 
 [cfg.docker]
-repo_url = "https://github.com/mersinvald/semantic-rs-test-crate.git"
-repo_branch = "master"
+repo_url = "from:git_clone_url"
+repo_branch = "from:git_branch"
 
 [[cfg.docker.images]]
 registry = "dockerhub"
+namespace = "etclabscore"
 dockerfile = ".docker/Dockerfile"
-namespace = "mersinvald"
-name = "semantic-rs-test-crate"
+name = "semantic-rs"
 tag = "latest"
-binary_path = "target/release/semantic-rs-test-crate"
+binary_path = "target/release/semantic-rs"
 cleanup = true
-build_cmd = "cargo build --release"
-exec_cmd = "/bin/semantic-rs-test-crate"
+build_cmd = "from:language:build_cmd"
+exec_cmd = "/bin/semantic-rs"
 
 
