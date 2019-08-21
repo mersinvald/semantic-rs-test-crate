@@ -5,7 +5,7 @@ git = { location = "builtin" }
 clog = "builtin"
 github = "builtin"
 rust = "builtin"
-#docker = "builtin"
+docker = "builtin"
 
 [steps]
 # Shared step
