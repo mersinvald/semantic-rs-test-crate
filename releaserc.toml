@@ -51,7 +51,7 @@ assets = [
 ]
 
 [cfg.docker]
-repo_url = "from:git_clone_url"
+repo_url = "from:git_remote_url"
 repo_branch = "from:git_branch"
 
 [[cfg.docker.images]]
