@@ -2,7 +2,7 @@
 name = 'semantic-rs-test-crate'
 authors = ['mersinvald <me@mkl.dev>']
 edition = '2018'
-version = '0.1.64'
+version = '0.1.65'
 
 [dependencies]
-actix-web = "1.0.8"
+actix-web = '1.0.8'
