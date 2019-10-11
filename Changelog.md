@@ -1,3 +1,14 @@
+<a name="v0.1.60"></a>
+## v0.1.60 (2019-10-11)
+
+
+#### Features
+
+*   add FB908DF6-5932-4066-9C08-E1B8A736FFB7 ([2bbd92aa](2bbd92aa))
+*   add 061D2B02-7A34-4D1B-8E46-E17DF4FA0DD6 ([3a5aba2b](3a5aba2b))
+
+
+
 <a name="v0.1.59"></a>
 ## v0.1.59 (2019-10-11)
 
