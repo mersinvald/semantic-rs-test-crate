@@ -4,6 +4,18 @@
 
 #### Features
 
+*   add E80DCFD9-4BA1-4695-A46F-EA67A55F7AA9 ([6fc5cd0a](6fc5cd0a))
+*   add AB6114FD-55AB-4E71-8F26-C0AD576461AF ([66b672a8](66b672a8))
+*   add B675FBFA-2517-454F-A00C-AB43EADE399F ([99deafed](99deafed))
+
+
+
+<a name="v0.1.65"></a>
+## v0.1.65 (2019-10-11)
+
+
+#### Features
+
 *   add AB6114FD-55AB-4E71-8F26-C0AD576461AF ([66b672a8](66b672a8))
 *   add B675FBFA-2517-454F-A00C-AB43EADE399F ([99deafed](99deafed))
 
